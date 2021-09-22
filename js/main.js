@@ -6,23 +6,21 @@ var SELECT_WIDTH = 8;
 var NORMAL_OPACITY = 0.1;
 var SELECT_OPACITY = 1;
 var CHART_WIDTH = 500;
-var CUTOFF = 11; // Update cutoff
+var CUTOFF = 6; // Update cutoff
 
 var height = 390;
 var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [1, 2, 3, 5, 6, 8, 10, 11];
+var episodes = [1, 3, 5, 6, 8, 11, 12];
 var totalData;
 var dFirst;
 
 var colors = {
-    "A": "#fb9fcb",
-    "B": "#ff951c",
-    "C": "#fff200",
-    "D": "#00a500",
-    "F": "gray"
+    "K": "#a66ce0",
+    "C": "#e89c79",
+    "J": "#79e8ba",  
 };
 
 // Set up plot
@@ -340,7 +338,7 @@ function updateNotes(d) {
 
 // Get color of note text (all white except for yellow rank C)
 function getTextColor(d) {
-    if (d.letter == "C") {
+    if (d.letter == "J") {
         return "black";
     }
     return "white";
