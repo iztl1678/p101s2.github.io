@@ -316,7 +316,7 @@ function getRankInfo(d) {
     if (d.isEliminated) {
         return "Eliminated in Episode " + episodes[d.ranking.length - 1];
     }
-    return "Wanna One Member, Rank " + d.currentRank + " " + displayRankChange(d);
+    return "Planet Top 9, Rank " + d.currentRank + " " + displayRankChange(d);
 }
 
 function updateNotes(d) {
@@ -357,7 +357,7 @@ function parseLine(row) {
     var r = {};
     r.name = row.Name;
     r.company = row.Company;
-    r.letter = row["Re-Evaluation"];
+    r.letter = row["Group"];
     r.specialNote = row.note;
     r.ranking = [];
     episodes.forEach(function(episode, i) {
