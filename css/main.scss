@@ -41,7 +41,7 @@ h1 {
 /* Top */
 
 #banner {
-    background: $blue url("../img/banner.png") center center;
+    background: $black url("../img/banner.png") center center;
     height: 200px;
     box-sizing: border-box;
     position: relative;
@@ -256,7 +256,7 @@ path.ranking {
 #footer {
     padding: 20px 50px;
     margin-top: 60px;
-    font-size: 10px;
+    font-size: 16px;
     background: #eee;
     color: #888;
     a{
