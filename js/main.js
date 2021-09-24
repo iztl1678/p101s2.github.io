@@ -1,8 +1,8 @@
 "use strict";
 
 var OFFSET = 23;
-var NORMAL_WIDTH = 6;
-var SELECT_WIDTH = 8;
+var NORMAL_WIDTH = 4;
+var SELECT_WIDTH = 6;
 var NORMAL_OPACITY = 0.1;
 var SELECT_OPACITY = 1;
 var CHART_WIDTH = 500;
