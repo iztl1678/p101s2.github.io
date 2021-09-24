@@ -13,7 +13,7 @@ var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [1, 3, "5 (Cell)", "5 (Individual)"];
+var episodes = ["1 (Theme Song Ranking)", 3, "5 (Cell)", "5 (Individual)"];
 var totalData;
 var dFirst;
 
